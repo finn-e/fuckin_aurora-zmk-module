@@ -1,4 +1,7 @@
 #include "fuckin_aurora.dtsi"
+#include "boards/nice_nano_v2.overlay"
+
+
 &kscan0 {
     diode-direction = "col2row";
     col-gpios
