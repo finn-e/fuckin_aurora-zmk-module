@@ -1,4 +1,4 @@
-#include "okinanami.dtsi"
+#include "fuckin_aurora.dtsi"
 &kscan0 {
     diode-direction = "row2col";
     col-gpios
@@ -8,9 +8,15 @@
       , <&pro_micro 18 GPIO_ACTIVE_HIGH>
       , <&pro_micro 15 GPIO_ACTIVE_HIGH>
       , <&pro_micro 14 GPIO_ACTIVE_HIGH>
+      , <&pro_micro  3 GPIO_ACTIVE_HIGH>
+      , <&pro_micro  4 GPIO_ACTIVE_HIGH>
     ;
 };
 
 &default_transform {
   col-offset = <6>;
+};
+
+&led_strip {
+    chain-length = <38>;
 };

@@ -1,0 +1,11 @@
+file_format: "1"
+id: fuckin_aurora
+name: fuckin_aurora
+type: shield
+url: https://github.com/finn-e/fuckin_aurora-zmk-module.git
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - fuckin_aurora_left
+  - fuckin_aurora_right
